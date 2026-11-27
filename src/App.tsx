@@ -25,13 +25,13 @@ function Photo({ src, alt, className = '' }: { src: string; alt: string; classNa
 
 const cakes = [
   { name: 'Cenoura com chocolate', note: 'O abraço mais doce da infância.', description: 'Massa fofinha de cenoura com aquela cobertura generosa de chocolate. Um clássico que nunca deixa de encantar.', image: '/images/bolo-caseiro.png', tag: 'O queridinho' },
-  { name: 'Chocolate', note: 'Para quem ama um carinho intenso.', description: 'Chocolate na massa e na cobertura. Macio, cheio de sabor e perfeito para acompanhar os melhores momentos.', image: '/image/chocolate.webp', tag: 'Puro aconchego' },
+  { name: 'Chocolate', note: 'Para quem ama um carinho intenso.', description: 'Chocolate na massa e na cobertura. Macio, cheio de sabor e perfeito para acompanhar os melhores momentos.', image: '/images/chocolate.webp', tag: 'Puro aconchego' },
   { name: 'Laranja', note: 'Um pedacinho de tarde ensolarada.', description: 'Leve, perfumado e preparado com laranja. O sabor cítrico e delicado que combina com um café passado na hora.', image: '/images/bolo_de_laranja.webp', tag: 'Feito com carinho' },
   { name: 'Fubá', note: 'Com gostinho de casa de vó.', description: 'Douradinho por fora e macio por dentro. A simplicidade do fubá em uma receita cheia de boas lembranças.', image: '/images/bolo_de_fuba.webp', tag: 'Receita de afeto' },
   { name: 'Coco', note: 'Delicado em cada pedacinho.', description: 'Massa macia, coco e uma textura deliciosa. Um encontro de doçura e delicadeza para compartilhar.', image: '/images/bolo_de_coco.webp', tag: 'Doce delicadeza' },
-  { name: 'Limão', note: 'Frescor que faz sorrir.', description: 'O equilíbrio entre o doce e o cítrico, com massa fofinha e cobertura de limão. Uma pausa gostosa no seu dia.', image: '/image/bolo_de_limao.webp', tag: 'Leve e especial' },
-  { name: 'Formigueiro', note: 'Pequenas alegrias em cada fatia.', description: 'Massa de baunilha com pedacinhos de chocolate por toda parte. Uma receita divertida, simples e irresistível.', image: '/image/bolo_formiga.webp', tag: 'Memória de infância' },
-  { name: 'Banana com canela', note: 'O perfume de uma boa lembrança.', description: 'Banana e o toque acolhedor da canela em um bolo caseiro cheio de personalidade. Feito para saborear sem pressa.', image: '/image/bolo_de_canela.webp', tag: 'Carinho de verdade' },
+  { name: 'Limão', note: 'Frescor que faz sorrir.', description: 'O equilíbrio entre o doce e o cítrico, com massa fofinha e cobertura de limão. Uma pausa gostosa no seu dia.', image: '/images/bolo_de_limao.webp', tag: 'Leve e especial' },
+  { name: 'Formigueiro', note: 'Pequenas alegrias em cada fatia.', description: 'Massa de baunilha com pedacinhos de chocolate por toda parte. Uma receita divertida, simples e irresistível.', image: '/images/bolo_formiga.webp', tag: 'Memória de infância' },
+  { name: 'Banana com canela', note: 'O perfume de uma boa lembrança.', description: 'Banana e o toque acolhedor da canela em um bolo caseiro cheio de personalidade. Feito para saborear sem pressa.', image: '/images/bolo_de_canela.webp', tag: 'Carinho de verdade' },
 ];
 
 const story = [
